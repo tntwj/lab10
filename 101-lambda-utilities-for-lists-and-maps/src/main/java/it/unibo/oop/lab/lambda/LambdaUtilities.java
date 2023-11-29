@@ -60,7 +60,8 @@ public final class LambdaUtilities {
     public static <T> List<Optional<T>> optFilter(final List<T> list, final Predicate<T> pre) {
         /*
          * Suggestion: consider Optional.filter
-         */
+         */ 
+
         return null;
     }
 
