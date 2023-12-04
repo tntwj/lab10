@@ -111,7 +111,9 @@ public final class LambdaUtilities {
          *
          * Keep in mind that a map can be iterated through its forEach method
          */
-        return null;
+        final Map<K, V> map2 = new HashMap<>();
+        map.forEach( (t1, t2) -> map2.put( t1, t2.orElse(def.get()) ) );
+        return map2;
     }
 
     /**
