@@ -12,3 +12,4 @@ build/
 *.class
 *.DS_Store
 deleteme/
+.gitattributes
